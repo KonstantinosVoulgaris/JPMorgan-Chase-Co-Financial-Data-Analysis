@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Load Data from CSV file
-file_path = r'C:\Users\Giannis\Desktop\Companies\stock_JPM.csv'  # Provide the full path to the file here
+file_path = 'stock_JPM.csv'  # Provide the full path to the file here
 df = pd.read_csv(file_path)
 
 # Plot 1: Display the first few rows of the dataset to understand the data structure
